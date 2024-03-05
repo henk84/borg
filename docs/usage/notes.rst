@@ -253,7 +253,7 @@ mode. A transaction log in this situation might look like this:
     transaction 13, UTC time 2016-03-31T15:55:55.472564
 
 From your security logs you conclude the attacker gained access at 15:54:00 and all
-the backups where deleted or replaced by compromised backups. From the log you know
+the backups were deleted or replaced by compromised backups. From the log you know
 that transactions 11 and later are compromised. Note that the transaction ID is the
 name of the *last* file in the transaction. For example, transaction 11 spans files 6
 to 11.
